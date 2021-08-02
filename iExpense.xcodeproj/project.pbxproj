@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C141139A26B774B70067BB05 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C141139926B774B70067BB05 /* ExpenseItem.swift */; };
+		C141139C26B7756A0067BB05 /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C141139B26B7756A0067BB05 /* ExpenseView.swift */; };
+		C141139E26B7BE490067BB05 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C141139D26B7BE490067BB05 /* AddExpenseView.swift */; };
 		C1851D7426B246540007DB00 /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1851D7326B246540007DB00 /* iExpenseApp.swift */; };
 		C1851D7626B246540007DB00 /* SheetEnvairment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1851D7526B246540007DB00 /* SheetEnvairment.swift */; };
 		C1851D7826B246570007DB00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1851D7726B246570007DB00 /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C141139926B774B70067BB05 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		C141139B26B7756A0067BB05 /* ExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseView.swift; sourceTree = "<group>"; };
+		C141139D26B7BE490067BB05 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
 		C1851D7026B246540007DB00 /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1851D7326B246540007DB00 /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
 		C1851D7526B246540007DB00 /* SheetEnvairment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetEnvairment.swift; sourceTree = "<group>"; };
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				C1851D7326B246540007DB00 /* iExpenseApp.swift */,
+				C141139B26B7756A0067BB05 /* ExpenseView.swift */,
+				C141139D26B7BE490067BB05 /* AddExpenseView.swift */,
 				C1851D7526B246540007DB00 /* SheetEnvairment.swift */,
+				C141139926B774B70067BB05 /* ExpenseItem.swift */,
 				C1851D8226B282E10007DB00 /* UserDef.swift */,
 				C1851D7726B246570007DB00 /* Assets.xcassets */,
 				C1851D7C26B246570007DB00 /* Info.plist */,
@@ -141,9 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C141139C26B7756A0067BB05 /* ExpenseView.swift in Sources */,
 				C1851D7626B246540007DB00 /* SheetEnvairment.swift in Sources */,
 				C1851D7426B246540007DB00 /* iExpenseApp.swift in Sources */,
+				C141139E26B7BE490067BB05 /* AddExpenseView.swift in Sources */,
 				C1851D8326B282E10007DB00 /* UserDef.swift in Sources */,
+				C141139A26B774B70067BB05 /* ExpenseItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
